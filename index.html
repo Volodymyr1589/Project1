@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2?family=Montserrat:wght@400;700 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>My resume</title>
+  </head>
+  <body>
+    <!-- Main -->
+    <div class="main">
+      <!-- Main content -->
+      <div class="main-content">
+        <!-- about user -->
+        <div class="about">
+          <h2 class="about-positio">Front-End Developer</h2>
+          <!-- Тег <h1></h1> це заголовок і їх є шість, від h1 до h6 і наступний шрифт є меншим від попереднього -->
+          <h1 class="about-name">Volodymyr Bulhakov</h1>
+          <!-- Тег <p></p> це параграф тексту -->
+          <p class="about-description">
+            Hello. My name is Volodymyr. I am 33 years old and I want to become
+            an IT developer. Frontend specialist. I started my training from
+            scratch, namely learning HTML.I also want to learn the CSS and
+            JavaScript and library React. For further work in the profession
+            Frontend-developer in an IT company.
+          </p>
+        </div>
+        <!-- Projects блок з проектфми -->
+        <div class="projects">
+          <h3 class="title">Projects</h3>
+          <!-- Тег <ol></ol> номерованого списку -->
+          <ol class="projects-list">
+            <!-- Тег <li></li> це елемент списку  -->
+            <li class="projects-iten">
+              <!-- Тег <a href=""></a> це посилання на сайт сторінку чи чат -->
+              <span class="project">
+                <a href="https://hellenglish.goit.global/" class="project-link">https://hellenglish.goit.global/.</a>
+                <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>
+              </span>
+            </li>
+            
+            <li class="projects-iten">
+              <span class="project">
+                <a href="https://cryptohub.goit.global/" class="project-link"
+                >https://cryptohub.goit.global/..</a
+              >
+              <span class="project-bracket">[</span> JavaScript <span class="project-bracket">]</span>
+              </span>
+            </li>
+
+            <li class="projects-iten">
+              <span class="project">
+                <a href="https://kidslike.goit.global/" class="project-link"
+                >https://kidslike.goit.global/......</a
+              >
+              <span class="project-bracket">[</span> React.js, Node.js <span class="project-bracket">]</span>
+              </span>
+            </li>
+          </ol>
+        </div>
+
+        <!-- Work  -->
+        <div class="work">
+          <h3 class="title">Work Experience</h3>
+          <!-- Company 1 -->
+          <div>
+            <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span></h4>
+            <p class="company">I am currently looking for an IT company for an internship.</p>
+            <!-- Тег <ul></ul> це маркирований список -->
+            <ul class="work-list">
+              <li class="work-list-iten">I studied online for half a year.</li>
+              <li class="work-list-iten">In the company GoIT.</li>
+              <li class="work-list-iten">And received a vocational education there.</li>
+              <li class="work-list-iten">
+                And together with the development team wrote many professional sites.
+              </li>
+            </ul>
+          </div>
+
+          <!-- Company 2 -->
+          <div>
+            <h4 class="work-position">Manager<span class="organization"> Company GoIT </span></h4>
+            <p class="company">I am currently looking for an IT company for an internship.</p>
+            <ul class="work-list">
+              <li class="work-list-iten">Assistance to managers in development.</li>
+              <li class="work-list-iten">
+                In writing various projects.
+              </li>
+              <li class="work-list-iten">Ind professional sites.</li>
+            </ul>
+          </div>
+
+          <!-- Company 3 -->
+          <div>
+            <h4>Manager <span class="organization">Organizer</span></h4>
+            <p class="company">I am currently looking for an IT company for an internship.</p>
+            <ul class="work-list">
+              <li class="work-list-iten">We work in the European market.</li>
+              <li class="work-list-iten">
+                On different learning platforms.
+              </li>
+              <li class="work-list-iten">And interested in our professional work.</li>
+              <li class="work-list-iten">Countries of Western and Eastern Europe.</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="education">
+          <h3 class="title">Education</h3>
+          <p><span class="organization">National Сompany GoIT</span></p>
+          <h5 class="managemen">Management</h5>
+          <p class="company">April <span class="line">|</span> 2022</p>
+        </div>
+      </div>
+
+      <!-- Sidebar Бокова частина контенту використовуємо тег <aside></aside> для кращого розуміння для Гугла-->
+      <aside class="sidebar">
+        <img src="img/myphoto.jpg" alt="Volodymyr" class="photo" />
+        <!-- Contacts -->
+         <div class="contacts">
+          <h3 class="asider-title">Contacts</h3>
+            <p><span class="contact-type">C:</span> <a href="tel:+380968838915" class="contact-link">+380 968 838 915</a></p>
+            <p><span class="contact-type">E:</span>
+              <a href="mailto:bulhakovvolodymyr@gmail.com" class="contact-link">
+                bulhakovvolodymyr@gmail.com</a
+              >
+            </p>
+          </div>
+
+          <!-- Tech Skills -->
+          <div class="tech-skills">
+            <h3 class="asider-title">Tech Skills</h3>
+            <ul class="tech-skills-list">
+              <li class="tech-skills-iten"><span class="tech-skills-text">HTML5</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">CSS3</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">GIT</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">WebPack</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">JavaScript</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">React.js</span></li>
+              <li class="tech-skills-iten"><span class="tech-skills-text">Node.js</span></li>
+            </ul>
+          </div>
+
+          <!-- Soft Skills -->
+          <div class="soft-skills">
+            <!-- похожі назви сласів можна копіювати, якщо їхні стилі схожі один на одного,
+            а якщо ні тоді назву класів потрібно змінювати -->
+            <h3 class="asider-title">Soft Skills</h3>
+            <ul class="soft-skills-list">
+              <li class="soft-skills-iten"><span class="soft-skills-text">Scrum</span></li>
+              <li class="soft-skills-iten"><span class="soft-skills-text">Agile</span></li>
+              <li class="soft-skills-iten"><span class="soft-skills-text">GTD</span></li>
+              <li class="soft-skills-iten"><span class="soft-skills-text">Teamwork</span></li>
+            </ul>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </body>
+</html>

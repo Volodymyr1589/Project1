@@ -1,0 +1,305 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #2600ff;
+}
+
+/* main style стелізує <div class="main"> */
+.main {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 1000px;
+  margin: 0 auto;
+}
+/* main-content style стелізує <div class="main-content">  */
+.main-content {
+  /* якщо відступ у середині блоку схожа пишим так
+  padding: 105px 90px; */
+  /* якщо відступ у середині блоку різна пишим розмір на кожну сторону окремо  */
+  padding-bottom: 105px;
+  padding-top: 105px;
+  padding-left: 90px;
+  padding-right: 90px;
+  background-color: yellow;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* about style стелізує <div class="about"> */
+.about {
+  margin-bottom: 30px;
+}
+/* <h2 class="about-positio">Front-End Developer</h2> */
+.about-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+/* <h1 class="about-name">Volodymyr Bulhakov</h1> */
+.about-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+/* <p class="about-description"> */
+.about-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 400px;
+}
+
+/* projects style стелізує <div class="projects"> */
+.projects {
+  /* margin: ; відступ між елементами і блоками */
+  /* margin-top: 100px;
+  margin-bottom: 300px;
+  margin-left: 60px;
+  margin-right: 90px; */
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 30px;
+}
+/* project style стелізує <h3 class="title"> */
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+/* <ol class="projects-list"> */
+.projects-list {
+  padding: 0;
+  margin-left: 15px;
+}
+/* <li class="projects-iten" >  */
+.projects-iten {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/* <span class="project"> */
+.project {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* <a href="https://hellenglish.goit.global/" class="project-link">
+ https://hellenglish.goit.global/.[ HTML5, CSS3 ]</a> */
+.project-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 15px;
+}
+/* style стелізуєм квадратні дужки <span class="project-bracket">[</span> HTML5, CSS3 <span class="project-bracket">]</span>  */
+.project-bracket {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+/* project style стелізує <h3 class="title"> */
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+/* work style стелізує <div class="work"> */
+.work {
+  /* padding: ; відступ у середині блоку */
+  /* padding-top: 100px;
+  padding-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 40px; */
+  margin-bottom: 30px;
+}
+/* <h4 class="work-position">Front-End Developer Freelance</h4> */
+.work-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+/* <p class="company">I am currently looking for an IT company for an internship.</p> */
+.company {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 15px;
+}
+/* <ul class="work-list"> */
+.work-list {
+  padding: 0;
+  margin-left: 18px;
+}
+/* <li class="work-list-iten">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li> */
+.work-list-iten {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* <p class="company">April <span class="line">|</span> 2022</p>
+<span class="line">|</span> */
+.line {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  color: #000000;
+}
+/* <h4 class="work-position">Front-End Developer <span class="organization">Freelance</span></h4>
+<span class="organization">Freelance</span> */
+.organization {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+  margin-bottom: 15px;
+}
+/* project style стелізує <h3 class="title"> */
+.title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+/* education style стелізує <div class="education"> */
+.education {
+  margin-bottom: 15px;
+}
+
+/* <h5 class="managemen">Management</h5> */
+.managemen {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+
+/* sidebar style стелізує <aside class="sidebar"> */
+.sidebar {
+  background-color: gold;
+  padding-top: 40px;
+  width: 370px;
+}
+/* style photoстелізує стиль для фото */
+.photo {
+  width: 370px;
+  margin-bottom: 50px;
+}
+/* asider-title styleстелізує тег <h3 class="asider-title">Contacts</h3> */
+.asider-title {
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+/* contacts style стелізує <div class="contacts"> */
+.contacts {
+  /* .tech-skills, .soft-skills можна писати похожі style стилі разом але через кому , */
+  margin-left: 50px;
+  margin-bottom: 30px;
+}
+/* tech-skills style стелізує <div class="tech-skills"> */
+.tech-skills {
+  margin-left: 50px;
+}
+/* tech-skills-list style стелізує тег <ul></ul> */
+.tech-skills-list {
+  color: white;
+  padding: 0;
+  margin-left: 18px;
+}
+/* tech-skills-iten style стиль для тегу <li></li>, стилізуєм крапочки */
+.tech-skills-iten {
+  color: #fb6d3a;
+}
+/* tech-skills-text style задає стиль тегу <span></span> у середині тегу <li><span></span></li> */
+.tech-skills-text {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* soft-skills style стелізує <div class="soft-skills">*/
+.soft-skills {
+  margin-left: 50px;
+  margin-top: 30px;
+}
+/* похожі назви стилів можна копіювати, якщо їхні стилі схожі один на одного,
+ а якщо ні тоді назву стилів потрібно змінювати
+ <ul class="soft-skills-list"> */
+.soft-skills-list {
+  color: white;
+  padding: 0;
+  margin-left: 18px;
+}
+/* <li class="soft-skills-iten"><span class="soft-skills-text">Scrum</span></li> */
+.soft-skills-iten {
+  color: #fb6d3a;
+}
+/* <li class="soft-skills-iten"><span class="soft-skills-text">Scrum</span></li>
+<span class="soft-skills-text">Scrum</span> */
+.soft-skills-text {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+/* contact-type style стелізує тег <span></span> */
+.contact-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  margin-right: 10px;
+}
+/* contact-link style стелізує тег <a></a> <p><span><a href=""></a></span></p> */
+/* <p><span class="contact-type">C:</span> <a href="tel:+380968838915" class="contact-link">+380 968 838 915</a></p>
+<p><span class="contact-type">E:</span>
+<a href="mailto:bulhakovvolodymyr@gmail.com" class="contact-link">
+bulhakovvolodymyr@gmail.com</a> */
+.contacts-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #727984;
+}
